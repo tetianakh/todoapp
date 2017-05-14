@@ -1,5 +1,6 @@
 .venv
 *.pyc
 *.sqlite3
+*target
 unittest.xml
 coverage.xml
