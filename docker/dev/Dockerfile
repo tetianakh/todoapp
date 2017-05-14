@@ -10,6 +10,7 @@ ENV WHEELHOUSE=/wheelhouse PIP_WHEEL_DIR=/wheelhouse XDG_CACHE_HOME=/cache
 
 VOLUME /wheelhouse
 VOLUME /reports
+VOLUME /build
 
 COPY scripts/test.sh /usr/local/bin/test.sh
 RUN chmod +x /usr/local/bin/test.sh
